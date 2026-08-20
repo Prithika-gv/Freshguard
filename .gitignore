@@ -1,0 +1,32 @@
+# ===== Secrets — never commit real credentials =====
+secrets.h
+firmware/secrets.h
+.env
+.env.*
+!.env.example
+
+# ===== Arduino build artifacts =====
+build/
+*.bin
+*.elf
+*.hex
+*.map
+
+# ===== Node / dashboard (Next.js / React / Vite) =====
+node_modules/
+dashboard/node_modules/
+.next/
+out/
+dist/
+.vercel/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== OS / editor junk =====
+.DS_Store
+Thumbs.db
+*~
+.vscode/
+.idea/

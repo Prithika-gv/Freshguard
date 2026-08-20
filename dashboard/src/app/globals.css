@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-gradient-to-br from-white via-brand-surface to-white text-slate-900 font-sans antialiased;
+}
+
+h1, h2, h3, h4 {
+  @apply font-display;
+}
+
+.glass {
+  @apply border border-white/50 bg-white/60 backdrop-blur-md shadow-glass;
+}
+
+.panel {
+  @apply glass rounded-2xl p-5;
+}
+
+.metric-label {
+  @apply text-xs font-semibold uppercase tracking-[0.16em] text-slate-500;
+}
+
+.metric-value {
+  @apply mt-2 font-mono text-2xl font-semibold text-brand-dark;
+}
+
+.status-pill {
+  @apply inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(27, 94, 32, 0.4);
+  border-radius: 9999px;
+}
