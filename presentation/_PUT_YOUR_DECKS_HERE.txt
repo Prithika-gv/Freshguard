@@ -1,7 +1,0 @@
-Copy your three presentation files into this folder, then delete this .txt:
-
-  FreshGuard_updated.pptx      (your latest updated deck)
-  FreshGuard_updated.pdf       (the PDF export)
-  nimirundhunit_finals.pptx    (the finals deck)
-
-Then run:  git add presentation  &&  git commit -m "Add presentation decks"
